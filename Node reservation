@@ -1,0 +1,15 @@
+
+Estimate for update 
+
+Understanding OpenShift update duration | Updating clusters | OpenShift Container Platform 4.13
+https://docs.openshift.com/container-platform/4.13/updating/understanding-openshift-update-duration.html
+
+Reservation for nodes 
+
+Allocating resources for nodes - Working with nodes | Nodes | OpenShift Container Platform 4.14
+https://docs.openshift.com/container-platform/4.14/nodes/nodes/nodes-nodes-resources-configuring.html#nodes-nodes-resources-configuring-auto_nodes-nodes-resources-configuring
+# oc get nodes
+# oc describe node <>
+# oc debug node/aro-m7wbq-worker-southindia-gchfm
+#chroor /host
+# cat /etc/node-sizing.env
