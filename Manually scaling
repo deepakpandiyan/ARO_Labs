@@ -1,0 +1,13 @@
+Manually scaling
+
+Manually scaling a machine set | Machine management | OpenShift Container Platform 4.7
+https://docs.openshift.com/container-platform/4.7/machine_management/manually-scaling-machineset.html
+oc get machineset -n openshift-machine-api
+
+oc scale machineset -n openshift-machine-api <machineset> --replicas=2
+or
+oc edit machineset -n openshift-machine-api <machineset> #modify replicas
+
+oc get machineset -n openshift-machine-api
+
+oc get machine -n openshift-machine-api
